@@ -8,3 +8,7 @@ optax
 dm-haiku
 dm-tree 
 dm-sonnet 
+tensorflow
+gym[box2d]
+imageio
+imageio-ffmpeg
