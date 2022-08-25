@@ -130,5 +130,4 @@ dmypy.json
 venv/
 .DS_Store/
 
-assets/
 cloud_scale/
