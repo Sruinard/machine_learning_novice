@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 venv/
 .DS_Store/
+
+assets/
+cloud_scale/

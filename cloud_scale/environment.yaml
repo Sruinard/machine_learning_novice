@@ -1,8 +1,10 @@
 name: jaxhaiku
 dependencies:
   - python=3.9
-  - conda-forge::jax==0.3.15
-  - conda-forge::jaxlib==0.3.15
+  - conda-forge::jax[cuda11_cudnn82]==0.3.15
+  # - conda-forge::jaxlib==0.3.15
+  - conda-forge::cudatoolkit-dev>=11.3.1
+  - nvidia::cuda
   - pip
   - pip:
     - matplotlib==3.5.2
@@ -18,3 +20,7 @@ dependencies:
     - tensorflow==2.9.1
     - gym[box2d]==0.25.2
     - azure-ai-ml==0.1.0b6
+
+
+display: flex; align-items: center; justify-content: center;
+  display: grid; grid-gap: 10px; grid-template-columns: repeat(3, 150px); grid-template-rows: repeat(3, 150px);
